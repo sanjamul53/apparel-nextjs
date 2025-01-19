@@ -1,0 +1,45 @@
+.root {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s;
+
+}
+
+.root:hover {
+  transform: translateY(-0.2rem);
+}
+
+.txt_name_typo {
+  transition: all 0.2s;
+}
+
+.root:hover .txt_name_typo {
+  color: var(--color_primary) !important;
+}
+
+.container {
+  max-width: 25rem;
+}
+
+.image_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 1.5rem;
+  background-color: var(--color_white);
+}
+
+.txt_div {
+  padding: 1rem 1.5rem;
+  border-radius: 0.2rem;
+  background-color: #f9f9f9;
+}
+
+.txt_name {
+  max-height: 4.5rem;
+  overflow: hidden;
+  margin-top: 0.6rem;
+}

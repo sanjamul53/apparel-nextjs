@@ -1,0 +1,67 @@
+.section {
+  margin: 0 !important;
+}
+
+.root {
+
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content_01 {
+  display: flex;
+  align-items: center;
+}
+
+.content_02 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navitem_txt {
+  padding: 0 0.5rem;
+  color: var(--color_blue_black) !important;
+  font-size: 1.5rem !important;
+  font-weight: 500;
+}
+
+.navitem_txt:hover {
+  color: var(--color_primary) !important;
+}
+
+
+/* ================================== icon ================================== */
+
+.navitem_icon {
+  margin-left: 4rem;
+}
+
+
+.icon_cart {
+  position: relative;
+}
+
+.icon_cart_total {
+  position: absolute;
+  right: 0%;
+  right: -1rem;
+  bottom: 0%;
+
+  /* padding: 0.2rem; */
+
+  min-height: 2rem;
+  min-width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color_primary);
+  color: var(--color_white);
+  font-size: 1.2rem;
+  border-radius: 50%;
+}

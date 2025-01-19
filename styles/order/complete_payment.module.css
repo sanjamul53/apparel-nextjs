@@ -1,0 +1,9 @@
+.payment_container {
+  display: flex;
+  justify-content: center;
+}
+
+.payment_content {
+  flex: 0 0 90%;
+  max-width: 35rem;
+}

@@ -1,0 +1,79 @@
+.header_root {
+  padding-bottom: 3rem;
+}
+
+/* =========================== second row =========================== */
+
+.content {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav_menu_container {
+  display: none;
+}
+
+.sort_container {
+  margin-left: 0rem;
+}
+
+.paginate_container_div {
+  /* margin-left: 5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.paginate_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginate_numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+/* =========================== media query =========================== */
+
+@media screen and (max-width: 850px) {
+
+  .content {
+    justify-content: flex-start;
+  }
+  
+
+  .nav_menu_container {
+    display: block;
+  }
+
+  .sort_container {
+    margin-left: 5rem;
+  }
+
+  .paginate_container_div {
+    flex-grow: 1;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .paginate_container_div {
+    flex: 0 0 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  
+}

@@ -1,0 +1,27 @@
+.empty_list {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.root {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list_item {
+  flex: 0 0 32%;
+}
+
+/* =========================== media query =========================== */
+
+@media screen and (max-width: 500px) {
+
+  .list_item {
+    flex: 0 0 48%;
+  }
+  
+}

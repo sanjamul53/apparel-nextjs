@@ -1,0 +1,15 @@
+.root {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.summaryList {
+  margin-top: 3rem;
+}
+
+.summary_item {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  column-gap: 5rem;
+}

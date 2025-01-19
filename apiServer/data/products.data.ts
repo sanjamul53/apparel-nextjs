@@ -1,0 +1,1 @@
+export const api_product_paginate_doc_count = 30;

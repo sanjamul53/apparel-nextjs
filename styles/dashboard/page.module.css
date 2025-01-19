@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar_container {
+  position: sticky;
+  top: 0;
+  width: 25rem;
+}
+
+.sidebar_container_mobile {
+  width: 30rem;
+  display: none;
+}
+
+.icon_container {
+  display: none;
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 2rem;
+  background-color: var(--color_white);
+  min-height: 100vh;
+  border-radius: 0.5rem;
+}
+
+/* ============================= media query ============================= */
+
+@media screen and (max-width: 800px) {
+  .sidebar_container {
+    display: none;
+  }
+
+  .header_section_cls {
+    padding-bottom: 5rem;
+  }
+  
+
+  .sidebar_container_mobile {
+    display: block;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .icon_container {
+    margin-top: 3rem;
+    display: block;
+  }
+
+}

@@ -1,0 +1,70 @@
+/* ============================== title div ============================== */
+.title_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title_line {
+  flex-grow: 1;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.title_txt {
+  margin: 0 2.5rem !important;
+}
+
+.icon_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* ============================== product div ============================== */
+.product_list_div {
+  padding-top: 2rem;
+}
+
+.products_carousel {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.carousel_item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  transition: all 0.5s;
+}
+
+.product_item {
+  flex: 0 0 24%;
+}
+
+
+/* ========================== media query ========================== */
+
+@media screen and (max-width: 900px) {
+
+  .product_item {
+    flex: 0 0 32%;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .product_item {
+    flex: 0 0 48%;
+  }
+
+}

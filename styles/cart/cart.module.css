@@ -1,0 +1,43 @@
+/* ============================ empty root ============================ */
+.empty_img_div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ============================ root ============================ */
+
+.root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartList_div {
+  flex: 0 0 65%;
+}
+
+.summary_div {
+  flex-grow: 1;
+  margin-left: 2rem;
+}
+
+
+/* ============================ media query ============================ */
+
+@media screen and (max-width: 900px) {
+
+  .root {
+    flex-direction: column;
+  }
+
+  .cartList_div {
+    flex: 0 0 100%;
+  }
+
+  .summary_div {
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+
+}

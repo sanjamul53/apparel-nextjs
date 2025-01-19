@@ -1,0 +1,43 @@
+.root {
+  margin-bottom: 3rem;
+}
+
+/* ====================== title div ====================== */
+
+.title_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reset_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* ====================== selected div ====================== */
+
+.selected_div {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.8rem;
+  column-gap: 0.8rem;
+}
+
+.selected_item {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid var(--color_txt);
+  padding: 0 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.selected_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

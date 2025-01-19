@@ -1,0 +1,25 @@
+.product_list {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.product_item {
+  flex: 0 0 24%;
+}
+
+/* ========================== media query ========================== */
+
+@media screen and (max-width: 900px) {
+  .product_item {
+    flex: 0 0 32%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .product_item {
+    flex: 0 0 48%;
+  }
+}

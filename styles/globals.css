@@ -1,0 +1,97 @@
+:root {
+
+  --color_primary: #4e54c8;
+  
+  --color_secondary: #ff5722;
+
+  
+  
+  /* --color_secondary: #ff5722; */
+  /* --color_primary: #ff5722;
+  --color_primary_dark: #b23c17;
+  --color_primary_light: #ff784e;
+
+  --color_secondary: #4e54c8; */
+
+
+  --color_slate_blue: #373e50;
+  --color_blue_black: #373f50;
+
+
+  --color_txt: #4b566b;
+  
+  --color_white: #fff;
+  --color_white_light: rgba(255, 255, 255, 0.6);
+
+  --color_black: #000;
+  --color_black_light_01: rgba(0, 0, 0, 0.1);
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+/*
+  16px  =  100%
+  x     = 100X / 16
+*/
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%; /* 9px */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 50%; /* 8px */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 75%; /* 12px */
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  /* font-family: 'Roboto', sans-serif; */
+  /* background-color: #F0F2F5; */
+  background-color: #fff;
+  line-height: 1.4;
+}
+
+.section_general {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section_horizontal_padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.content_general {
+  max-width: 1260px;
+  margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.empty {
+  width: calc(50%-35px);
+  width: 48%;
+  height: 1rem;
+  background-color: aquamarine;
+}
+
+.circle {
+  position: relative;
+  margin: 0 0.5rem;
+  border: 0.2rem solid lightgrey;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.circle_txt {
+  position: absolute;
+  left: 50%;
+  bottom: -3rem;
+  transform: translateX(-50%);
+  color: var(--color_blue_gray);
+}
+
+.line {
+  height: 3px;
+  border-radius: 4px;
+  background: lightgrey;
+  transition: background 0.5s linear;
+
+  flex-grow: 1;
+}

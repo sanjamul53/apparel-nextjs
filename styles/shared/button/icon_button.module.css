@@ -1,0 +1,60 @@
+.root {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+
+  overflow: hidden;
+}
+
+.root span {
+  border: 0.1rem solid var(--color_primary);
+  padding: 2.5rem;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+/* ============================ variant ============================ */
+.variant_contained span {
+  background-color: rgb(78, 84, 200);
+  border-color: rgb(78, 84, 200);
+
+  color: var(--color_white);
+}
+
+.variant_contained:hover span {
+  background-color: rgba(78, 84, 200, 0.9) !important;
+  border-color: rgba(78, 84, 200, 0.9) !important;
+}
+
+.variant_text span {
+  border: none;
+  background-color: transparent;
+  color: var(--color_primary);
+}
+
+.variant_text:hover span {
+  background-color: rgba(78, 84, 200, 0.1) !important;
+}
+
+
+.variant_outlined span{
+  background-color: transparent;
+  color: var(--color_primary);
+  border-color: rgba(78, 84, 200, 0.6);
+}
+
+.variant_outlined:hover span{
+  background-color: rgba(78, 84, 200, 0.05) !important;
+  border-color: rgb(78, 84, 200) !important;
+}
+
+/* ============================ type ============================ */
+
+
+.type_icon_rectangular span {
+  border-radius: 0.2rem;
+  padding: 0.8rem 1rem;
+}

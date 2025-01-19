@@ -1,0 +1,33 @@
+.root {
+  padding: 2rem 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--color_white);
+  padding-top: 3rem;
+  min-height: 100vh;
+
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+  .root {
+    height: 100vh;
+    overflow-y: auto;
+
+    scrollbar-width: thin;
+
+  }
+
+  .root::-webkit-scrollbar {
+    width: 1rem;
+    height: 1rem;
+  }
+
+
+  .root::-webkit-scrollbar-thumb {
+    background: #ccc;
+  }
+
+  
+}

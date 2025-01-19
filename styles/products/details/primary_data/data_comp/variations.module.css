@@ -1,0 +1,110 @@
+.root {
+  margin-top: 1rem;
+}
+
+/* ============================ current color ============================ */
+.current_color_div {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5.5rem;
+  min-height: 8rem;
+}
+
+.current_color_div_data {
+  display: flex;
+  align-items: center;
+}
+
+
+/* ============================ color list ============================ */
+.color_container {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.color_item {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin: 0 0.8rem 0.8rem 0;
+  cursor: pointer;
+  border: 0.1rem solid rgba(0,0,0,.4);
+  outline: transparent solid 0.2rem;
+  outline-offset: 0.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color_item:hover {
+  outline-color: var(--color_primary);
+}
+
+.color_item_selected {
+  outline-color: var(--color_primary);
+}
+
+.color_item_label {
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+  border: 0.1rem solid rgba(0,0,0,.4);
+}
+
+/* ============================ size list ============================ */
+.size_container {
+  margin-top: 3rem;
+}
+
+.size_item_list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.8rem;
+  row-gap: 1.5rem;
+}
+
+.size_item {
+  min-width: 6rem;
+  padding: 0.6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid var(--color_slate_blue);
+  border: 0.1rem solid var(--color_txt);
+  border-radius: 0.2rem;
+  cursor: pointer;
+
+  font-size: 1.3rem;
+  color: var(--color_slate_blue);
+  font-weight: 500;
+
+  transition: all 0.2s;
+}
+
+.size_item:hover {
+  border-color: var(--color_primary);
+  color: var(--color_white);
+  background-color: var(--color_primary);
+}
+
+
+/* ============================ media ============================ */
+
+@media screen and (max-width: 600px) {
+  .color_item {
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+
+  .size_item {
+    min-width: 6.5rem;
+    font-size: 1.5rem;
+  }
+
+}

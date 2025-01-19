@@ -1,0 +1,33 @@
+.root {
+  margin-top: 5rem;
+}
+
+/* =================== table =================== */
+.data_table {
+  margin-top: 2rem;
+}
+
+.data_table_row {
+  display: flex;
+  padding: 1.8rem 0;
+  border-bottom: 0.1rem solid var(--color_black_light_01);
+}
+
+.row_key {
+  flex: 0 0 35%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.row_value {
+  flex-grow: 1;
+  font-size: 1.5rem;
+  color: var(--color_txt);
+  color: #595959;
+  line-height: 1.8;
+}
+
+.data_table_row:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "apparel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@paypal/react-paypal-js": "^8.1.3",
+    "@tanstack/react-query": "^5.12.2",
+    "eslint-config-next": "^14.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "next": "^14.0.3",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.14.0",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "express": "^4.18.2",
+    "typescript": "5.2.2"
+  }
+}

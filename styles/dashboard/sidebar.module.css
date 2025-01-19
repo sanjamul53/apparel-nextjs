@@ -1,0 +1,59 @@
+.root {
+
+  padding: 2rem 0;
+  border-radius: 0.5rem;
+
+  background-color: var(--color_white);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  min-height: 100vh;
+
+}
+
+.menu_item {
+  padding: 0.9rem 1.2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.disable_item {
+  cursor: default;
+}
+.disable_item:hover {
+  background-color: transparent !important;
+}
+
+.menu_item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu_item_icon {
+  flex: 0 0 3.5rem;
+  transform: translateY(0.2rem);
+}
+
+.menu_item_label {
+  font-size: 1.5rem !important;
+}
+
+/* ========================== media ========================== */
+
+
+@media screen and (max-width: 960px) {
+  .menu_item_label {
+    font-size: 1.7rem !important;
+    margin-left: 0.8rem !important;
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu_item_label {
+    font-size: 1.8rem !important;
+    margin-left: 1rem !important;
+  }
+  
+}

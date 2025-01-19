@@ -1,0 +1,20 @@
+.root {
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+}
+
+.title_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #111;
+}
+
+.title_div:hover {
+  color: var(--color_blue_black);
+}
+
+.content {
+  padding: 2rem 0 1.5rem 0;
+}

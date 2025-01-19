@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.action_div {
+  flex: 0 0 50%;
+}
+
+.payment_div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.payment_content {
+  flex: 0 0 100%;
+  max-width: 30rem;
+}
+
+
+
+
+/* ============================= media ============================= */
+
+@media screen and (max-width: 550px) {
+
+  .root {
+    column-gap: 0rem;
+  }
+
+  .action_div {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

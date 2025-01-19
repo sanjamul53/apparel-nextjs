@@ -1,0 +1,61 @@
+.banner_section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.slideContent {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.hanlder_btn {
+  position: absolute;
+  bottom: 50%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.handler_left {
+  left: 0%;
+}
+
+.handler_right {
+  right: 0%;
+}
+
+
+/* ====================== media ====================== */
+
+
+@media screen and (max-width: 1200px) {
+
+  .hanlder_btn {
+    bottom: 0%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .hanlder_btn {
+    bottom: 50%;
+  }
+}

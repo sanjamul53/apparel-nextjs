@@ -1,0 +1,25 @@
+.root {
+  flex: 0 0 80%;
+}
+
+.header_content {
+  flex-wrap: nowrap !important;
+}
+
+.header_img {
+  flex: 0 0 15rem !important;
+  padding: 0;
+}
+
+.header_name {
+  flex-grow: 1 !important;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+
+  .root {
+    flex: 0 0 100%;
+  }
+
+}

@@ -1,0 +1,117 @@
+.section_cls {
+  background-image: linear-gradient(180deg, #fff 50%, #f7f7f7 100%);
+  padding-bottom: 6rem;
+  margin-top: 4rem;
+}
+
+
+/* ============================ social content ============================ */
+
+.content_root {
+  padding: 5rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+}
+
+.social_div {
+  flex: 0 0 65%;
+}
+
+.app_div {
+  flex: 0 0 35%;
+}
+
+/* ---------- social content ---------- */
+
+.social_txt {
+  font-size: 9rem;
+  color: #2d2d2d;
+  letter-spacing: -4px;
+  font-weight: 900;
+  margin-top: -3rem;
+}
+
+.social_txt span {
+  font-size: 6rem;
+}
+
+.social_iconList {
+  width: 100%;
+  margin-top: 3rem;
+  max-width: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store_container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.store_description {
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 2;
+  max-width: 32rem;
+}
+
+
+/* ============================ dev root ============================ */
+
+.dev_root {
+  padding-top: 4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4rem;
+}
+
+
+/* ============================ media ============================ */
+
+@media screen and (max-width: 1000px) {
+  .social_div {
+    flex: 0 0 63%;
+  }
+
+  .app_div {
+    flex: 0 0 37%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .content_root {
+    flex-wrap: wrap;
+  }
+
+  .social_div {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app_div {
+    flex: 0 0 100%;
+    margin-top: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .social_txt {
+    font-size: 7rem;
+  }
+
+}

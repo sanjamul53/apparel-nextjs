@@ -1,0 +1,119 @@
+.sectionCls {
+  width: 100%;
+}
+
+.root {
+  display: flex;
+  align-items: stretch;
+}
+
+.img_div {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.img_content {
+  position: relative;
+}
+
+.price_offer_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-color: #f3f2ee;
+  background-color: #111111;
+  border-radius: 0.4rem;
+
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  padding: 1rem;
+
+  /* padding: 1.5rem; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt_div {
+  flex-grow: 1;
+  background-color: #f3f2ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.root_item_div {
+  padding: 4rem 2rem;
+}
+
+.txt_content {
+  width: 100%;
+  max-width: 35rem;
+}
+
+.btn_div {
+  margin-top: 4rem;
+}
+
+/* ====================== countdown ====================== */
+
+.countdown_content {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown_item {
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.countdown_space {
+  flex: 0 0 9%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 3rem;
+}
+
+.countdown_item_value {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--color_black);
+  color: #111111;
+}
+
+.countdown_item_key {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: var(--color_txt);
+}
+
+
+/* ====================== media ====================== */
+
+
+@media screen and (max-width: 500px) {
+
+  .root {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img_div {
+    width: 90%;
+    max-width: 40rem;
+  }
+
+  .txt_div {
+    width: 100%;
+  }
+
+
+}

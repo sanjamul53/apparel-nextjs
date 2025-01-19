@@ -1,0 +1,14 @@
+.root {
+  margin-top: 2.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.star_container {
+  display: flex;
+  align-items: center;
+}
+
+.start_item {
+ margin: 0 0.1rem; 
+}

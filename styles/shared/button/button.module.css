@@ -1,0 +1,46 @@
+.root {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0.1rem solid var(--color_primary);
+  padding: 0.8rem 1rem;
+  padding: 1.2rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+
+/* ============================ variant ============================ */
+.variant_contained {
+  background-color: rgb(78, 84, 200);
+  border-color: rgb(78, 84, 200);
+
+  color: var(--color_white);
+}
+
+.variant_contained:hover {
+  background-color: rgba(78, 84, 200, 0.9);
+  border-color: rgba(78, 84, 200, 0.9);
+}
+
+.variant_text {
+  border: none;
+  background-color: transparent;
+  color: var(--color_primary);
+}
+
+.variant_text:hover {
+  background-color: rgba(78, 84, 200, 0.1);
+}
+
+
+.variant_outlined {
+  background-color: transparent;
+  color: var(--color_primary);
+  border-color: rgba(78, 84, 200, 0.6);
+}
+
+.variant_outlined:hover {
+  background-color: rgba(78, 84, 200, 0.05);
+  border-color: rgb(78, 84, 200);
+}

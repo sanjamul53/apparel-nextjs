@@ -1,0 +1,46 @@
+.root {
+  margin-bottom: 2.5rem;
+}
+
+.title_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.option_div {
+  margin-top: 1rem;
+  max-height: 22rem;
+  overflow-y: auto;
+
+  scrollbar-width: thin;
+}
+
+.option_div::-webkit-scrollbar {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+.option_div::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+
+.option_item {
+  padding: 0.3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.option_item:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.option_item_title {
+  display: flex;
+  align-items: center;
+}

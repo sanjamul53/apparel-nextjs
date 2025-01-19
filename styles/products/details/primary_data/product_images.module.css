@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.list_container {
+  flex: 0 0 8rem;
+  flex: 0 0 18%;
+  max-width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_item {
+  margin: 0.5rem 0;
+  border: 0.1rem solid transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.list_item:hover {
+  transform: scale(0.9);
+}
+
+/* ============================== selected ============================== */
+
+.slected_container {
+  flex-grow: 1;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+}

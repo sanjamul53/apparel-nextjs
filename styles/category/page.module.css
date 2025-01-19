@@ -1,0 +1,20 @@
+.item_list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8rem;
+  justify-content: center;
+}
+
+.page_header_btn {
+  color: var(--color_white);
+  padding: 1rem 2rem;
+  border: 0.1rem solid var(--color_white);;
+  font-size: 1.8rem;
+  border-radius: 0.2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.page_header_btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
